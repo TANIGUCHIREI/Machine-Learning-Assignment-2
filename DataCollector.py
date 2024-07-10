@@ -11,7 +11,7 @@ CHANNEL_URLS = [
 ]
 api_service_name = "youtube"
 api_version      = "v3"
-YOUTUBE_API_KEY  = "AIzaSyDasnckxNK0zvrgdk9cqjLPDyR44p7y2WQ"
+YOUTUBE_API_KEY  = ""
 
 youtube = googleapiclient.discovery.build(
 api_service_name, api_version, developerKey = YOUTUBE_API_KEY)
